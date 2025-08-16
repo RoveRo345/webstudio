@@ -1,0 +1,31 @@
+.work-title {
+  text-align: center;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+.work-block {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.work-block-item {
+  position: relative;
+}
+.work-text {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2f303acc;
+  width: 100%;
+  height: 70px;
+  color: #fff;
+}
+.work-title {
+  font-size: 36px;
+  color: #212121;
+  letter-spacing: 1.1px;
+  line-height: 100%;
+}

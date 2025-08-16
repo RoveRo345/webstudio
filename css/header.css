@@ -2,6 +2,8 @@
   padding: 32px 0;
   display: flex;
   gap: 93px;
+  align-items: center;
+  justify-content: space-between;
 }
 .menu {
   display: flex;
@@ -16,5 +18,21 @@
 }
 
 .header-logo span {
+  color: #2196f3;
+}
+.menu-link {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 500;
+}
+.header-block {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.header-contact-link {
+  color: #757575;
+}
+.header .header-mail-link {
   color: #2196f3;
 }
